@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundalargado">
+    <!--android:background="@drawable/bgimagen2"-->
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@android:dimen/thumbnail_height"
+        android:layout_height="172dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@mipmap/logoredondo" />
+
+    <ImageButton
+    android:id="@+id/imageButtonNosotros"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_alignParentStart="true"
+    android:layout_below="@+id/imageView"
+    android:background="#000000ff"
+    android:cropToPadding="false"
+    app:srcCompat="@drawable/nosotros" />
+
+    <ImageButton
+        android:id="@+id/imageButtonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="212dp"
+        android:background="#000000ff"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/login" />
+
+    <ImageButton
+        android:id="@+id/imageButtonContacto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="144dp"
+        android:background="#000000ff"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/contacto" />
+
+    <ImageButton
+        android:id="@+id/imageButtonServicios"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="75dp"
+        android:background="#000000ff"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/servicios" />
+
+    <ImageButton
+        android:id="@+id/imageButtonDondeestamos"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:background="#000000ff"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/dondeestamos" />
+
+
+
+</RelativeLayout>
